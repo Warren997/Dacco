@@ -1,0 +1,454 @@
+:root {
+    --primary: #03007b;
+    --secondary: #f5fe00;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+
+/****************************** Top Header ******************************/
+
+.top-header {
+    height: 45px;
+    width: 100%;
+    background-color: var(--primary);
+}
+
+.top-header-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.top-header-ul li {
+    display: inline-block;
+}
+
+.top-header-ul li a {
+    font-size: 12px;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.top-header-ul li a:hover {
+    color: var(--secondary);
+}
+
+
+/****************************** Navbar ******************************/
+
+nav {
+    z-index: 15;
+}
+
+
+/* Nav Brand */
+
+.navbar-logo-title {
+    margin: 0;
+    color: #D4AF37;
+    font-size: 14px;
+}
+
+.navbar-brand img:hover {
+    transition: .5s;
+    transform: scale(0.90);
+}
+
+
+/* Nav Links */
+
+.nav-menu {
+    margin-right: 5%;
+}
+
+#navbar-burger {
+    background-color: var(--secondary);
+}
+
+.nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.nav-ul li {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.nav-ul li a:hover {
+    background-color: var(--secondary);
+}
+
+.navbar-toggler {
+    background-color: transparent;
+}
+
+.nav-menu {
+    margin: 0px;
+}
+
+
+/* Dropdown Hover */
+
+
+/* Who Are We */
+
+.dropdown-content-who-are-we {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content-who-are-we a {
+    color: black;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 175px;
+}
+
+.who-are-we:hover .dropdown-content-who-are-we {
+    display: block;
+}
+
+
+/* Sub Committees */
+
+.dropdown-content-committees {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 65%;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.dropdown-content-committees a {
+    color: black;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+}
+
+.committees:hover .dropdown-content-committees {
+    display: block;
+}
+
+
+/* Sub Function Halls */
+
+.dropdown-content-function-halls {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 85%;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.dropdown-content-function-halls a {
+    color: black;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+}
+
+.function-halls:hover .dropdown-content-function-halls {
+    display: block;
+}
+
+
+/* Sub Management */
+
+.dropdown-content-management {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 80%;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 15;
+}
+
+.dropdown-content-management a {
+    color: black;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+}
+
+.management:hover .dropdown-content-management {
+    display: block;
+}
+
+
+/* Services */
+
+.dropdown-content-services {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content-services a {
+    color: black;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 175px;
+}
+
+.services:hover .dropdown-content-services {
+    display: block;
+}
+
+
+/* Sub Loan */
+
+.dropdown-content-loan {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 65%;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.dropdown-content-loan a {
+    color: black;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+}
+
+.loan:hover .dropdown-content-loan {
+    display: block;
+}
+
+
+/* Sub Lodging */
+
+.dropdown-content-lodging {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 75%;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+.dropdown-content-lodging a {
+    color: black;
+    padding: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+}
+
+.lodging:hover .dropdown-content-lodging {
+    display: block;
+}
+
+
+/* Activities */
+
+.dropdown-content-activities {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content-activities a {
+    color: black;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 175px;
+}
+
+.activities:hover .dropdown-content-activities {
+    display: block;
+}
+
+
+/* Gallery */
+
+.dropdown-content-gallery {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content-gallery a {
+    color: black;
+    padding: 8px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 175px;
+}
+
+.gallery:hover .dropdown-content-gallery {
+    display: block;
+}
+
+.carousel-control-prev-icon-home {
+    background-image: url('../img/chevron-left-solid.svg');
+    height: 40px;
+}
+
+.carousel-control-next-icon-home {
+    background-image: url('../img/chevron-right-solid.svg');
+    height: 40px;
+}
+
+
+/** Contact Row **/
+
+.contact-row {
+    background-color: var(--primary);
+}
+
+.contact-row .row .col {
+    border: .001rem solid white;
+}
+
+.contact-icon .fa {
+    font-size: 28px;
+    color: var(--secondary);
+}
+
+
+/****************************** Contact Section ******************************/
+
+.contact-section {
+    border-radius: 15px;
+}
+
+.our-coop-icon {
+    font-size: 30px;
+    padding: 20px 25px;
+    border: 1px solid var(--primary);
+    border-radius: 15px;
+    color: var(--primary);
+}
+
+
+/****************************** Our Services ******************************/
+
+.services-section {
+    background-image: url(https://www.bbccconline.com/wp-content/uploads/2018/07/ROOM-4.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+/****************************** Mission & Vision ******************************/
+
+.vm-icon {
+    font-size: 35px;
+    padding: 20px 25px;
+    border: 1px solid var(--primary);
+    border-radius: 100%;
+    color: var(--primary);
+}
+
+
+/****************************** News & Event ******************************/
+
+.event-img-container {
+    overflow: hidden;
+}
+
+.event-img-container img {
+    transition: 1s;
+}
+
+.event-img-container img:hover {
+    transform: scale(1.2);
+}
+
+
+/****************************** Footer ******************************/
+
+.copy-right {
+    height: 65px;
+}
+
+.copy-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.copy-right li {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    float: right;
+}
+
+.copy-right li a {
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+}
+
+.copy-right li a:hover {
+    color: var(--secondary);
+}

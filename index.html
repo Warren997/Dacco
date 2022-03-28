@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Damayan sa Cavite Community Multi-Purpose Cooperative</title>
+    <!-- Tab Icon-->
+    <link rel="icon" href="img/dacco-logo.svg">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Local Css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" id="fontawesome-css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=2.4" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="top-header">
+        <div class="container h-100 d-flex justify-content-end align-items-center">
+            <ul class="top-header-ul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">CoopServer</a></li>
+                <li><a href="#">Downloadable Forms</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" target=""><i class="fa fa-user"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-light bg-light navbar-expand-xl">
+        <div class="container">
+            <div class="row w-100">
+                <!-- Nav Brand -->
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <a class="navbar-brand" href="#">
+                                <img src="img/navbar-logo.svg" alt="" width="220" class="d-inline-block align-text-top">
+                            </a>
+                        </div>
+                        <div class="col-12">
+                            <p class="navbar-logo-title">Progress Through Unity And Service</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Nav Links-->
+                <div class="col-4 col-lg-8 col-xl-9 d-flex justify-content-end align-items-center">
+                    <!-- Burger Icon none-xl -->
+                    <button id="navbar-burger" class="navbar-toggler text-light d-block d-xl-none h-50" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Offcanvas aside -->
+                    <div class="offcanvas offcanvas-start d-block d-xl-none" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdroped with scrolling</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <p>Try scrolling the rest of the page to see this option in action.</p>
+                        </div>
+                    </div>
+                    <!-- Nav links xl -->
+                    <div class="nav-menu  text-center d-none d-xl-block">
+                        <ul class="nav-ul navbar-nav ms-auto nav-pills ">
+                            <li class="nav-item who-are-we">
+                                <a href="#" class="nav-link">Who Are We? </a>
+                                <div class="dropdown-content-who-are-we">
+                                    <a href="#">About Us</a>
+                                    <a href="#">Vision & Mission</a>
+                                    <a href="#">Organizational Chart</a>
+                                    <a href="#">Dacco Promo 2022</a>
+                                    <!-- Committees -->
+                                    <div class="committees">
+                                        <a href="#">Committees</a>
+                                        <!-- Sub Committees -->
+                                        <div class="dropdown-content-committees">
+                                            <a href="#">Birthday Loan Assistance & Thanksgiving Promo</a>
+                                            <a href="#">Ethics Committee</a>
+                                            <a href="#">Ethics & Technical Consultant</a>
+                                            <a href="#">Legal Officer</a>
+                                            <a href="#">Board Secretary</a>
+                                            <a href="#">Investment Committee</a>
+                                            <a href="#">Audit Committee</a>
+                                            <a href="#">Treasurer</a>
+                                            <a href="#">Conciliation & Mediation Committee</a>
+                                            <a href="#">Education Committee</a>
+                                            <a href="#">Gender & Development Committee</a>
+                                            <a href="#">Risk Management Committee</a>
+                                            <a href="#">Coopserver Editorial Coordinator</a>
+                                        </div>
+                                    </div>
+                                    <!-- Management -->
+                                    <div class="management">
+                                        <a href="#">Management</a>
+                                        <!-- Sub Management -->
+                                        <div class="dropdown-content-management">
+                                            <a href="#">Management</a>
+                                            <a href="#">Manager</a>
+                                            <a href="#">Human Resource Development Officer</a>
+                                            <a href="#">Records Offices</a>
+                                            <a href="#">Accounting Department</a>
+                                            <a href="#">Administrative Department</a>
+                                            <a href="#">Credit & Collection Department</a>
+                                            <a href="#">Finance Department</a>
+                                            <a href="#">Loan Education, Advance & Development Promo</a>
+                                            <a href="#">Survival Calamity Recovery Assistance Loan Promo</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">News</a>
+                            </li>
+                            <li class="nav-item services">
+                                <a href="#" class="nav-link">Services</a>
+                                <!-- Services -->
+                                <div class="dropdown-content-services">
+                                    <a href="#">Fixed Deposit/ Share Capital</a>
+                                    <a href="#">Savings Deposit</a>
+                                    <a href="#">Young Servers Club</a>
+                                    <a href="#">Time Deposit</a>
+                                    <a href="#">Grocery Purchase Service</a>
+                                    <!-- Loan -->
+                                    <div class="loan">
+                                        <a href="#">Loan</a>
+                                        <!-- Sub Loan -->
+                                        <div class="dropdown-content-loan">
+                                            <a href="#">Petty Cash Loan</a>
+                                            <a href="#">Regular Loan</a>
+                                            <a href="#">Multi-Purpose Loan</a>
+                                            <a href="#">Special Contingency Loan</a>
+                                        </div>
+                                    </div>
+                                    <!-- Lodging -->
+                                    <div class="lodging">
+                                        <a href="#">Lodging</a>
+                                        <!-- Sub Lodging -->
+                                        <div class="dropdown-content-lodging">
+                                            <a href="#">Lodging Rules</a>
+                                            <a href="#">Lodging Room 302</a>
+                                            <a href="#">Lodging Room 305</a>
+                                            <a href="#">Lodging Room 306</a>
+                                            <a href="#">Lodging Room 307</a>
+                                            <a href="#">Lodging Room 308</a>
+                                            <a href="#">Lodging Room 309</a>
+                                            <a href="#">Lodging Room 310</a>
+                                            <a href="#">Lodging Room 311</a>
+                                            <a href="#">Lodging Room 312</a>
+                                            <a href="#">Lodging Room 313</a>
+                                            <a href="#">Lodging Room 314</a>
+                                        </div>
+                                    </div>
+                                    <!-- Function Halls -->
+                                    <div class="function-halls">
+                                        <a href="#">Function Halls</a>
+                                        <!-- Sub Function Halls -->
+                                        <div class="dropdown-content-function-halls">
+                                            <a href="#">Hall with Stage</a>
+                                            <a href="#">Hall A to B</a>
+                                            <a href="#">Basement 1 Hall</a>
+                                            <a href="#">Basement 2 Hall A</a>
+                                            <a href="#">Basement 2 Hall B</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Activities -->
+                            <li class="nav-item activities">
+                                <a href="#" class="nav-link">Activities</a>
+                                <div class="dropdown-content-activities">
+                                    <a href="#">P.M.E.S Schedule </a>
+                                    <a href="#">Seminars & Training for Members</a>
+                                </div>
+                            </li>
+                            <!-- Gallery -->
+                            <li class="nav-item gallery">
+                                <a href="#" class="nav-link">Gallery</a>
+                                <div class="dropdown-content-gallery">
+                                    <a href="#">P.M.E.S Schedule </a>
+                                    <a href="#">Seminars & Training for Members</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Membership</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-outline-primary">Online Loan Application</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrousel -->
+    <div id="home-carousel" class="carousel slide carousel-fade mb-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel-3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel-4.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel-5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel-6.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon carousel-control-prev-icon-home " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon carousel-control-next-icon-home " aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- Contact Section -->
+
+    <div class="container contact-row my-5 contact-section">
+        <div class="row">
+            <!-- Send Us Email -->
+            <div class="col">
+                <div class="container row py-3">
+                    <div class="contact-icon col-3 d-flex justify-content-end align-items-center">
+                        <i class="fa-regular fa-envelope fa"></i>
+                    </div>
+                    <div class="contact-details col-9  pt-4">
+                        <h6 class="text-start text-light mb-0">Send Us Email</h6>
+                        <p class="p text-start text-light">daccoiib@yahoo.com</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Our Location -->
+            <div class="col">
+                <div class="container row py-3">
+                    <div class="contact-icon col-2 d-flex justify-content-end align-items-center">
+                        <i class="fa-solid fa-location-dot fa"></i>
+                    </div>
+                    <div class="contact-details col-10  pt-3">
+                        <h6 class="text-start text-light mb-2">Our Location</h6>
+                        <p class="p text-start text-light">2nd Floor DACCO MPC Building, #40 Anabu II-B 4103 Imus, Philippines</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Call Us -->
+            <div class="col">
+                <div class="container row py-3">
+                    <div class="contact-icon col-3 d-flex justify-content-end align-items-center">
+                        <i class="fa-solid fa-phone fa"></i>
+                    </div>
+                    <div class="contact-details col-9  pt-4">
+                        <h6 class="text-start text-light mb-0">Call Us</h6>
+                        <p class="p text-start text-light">0917 544 8439</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Our Coop -->
+
+    <div class="container my-5">
+        <h2 class="h2 text-center">Our Coop</h2>
+        <div class="row my-5">
+            <!-- HOW TO BECOME A MEMBER -->
+            <div class="col">
+                <div class="row">
+                    <div class="col-4 text-center">
+                        <i class=" fa-solid fa-user our-coop-icon"></i>
+                    </div>
+                    <div class="col-8 ">
+                        <h4 class="h4 ">HOW TO BECOME A MEMBER</h4>
+                        <p class="p ">Membership in BBCCC is open to the following: • Any natural person who is a citizen of the Philippines, of legal age and with the capacity to contract; • Any person at least 18 years of age with visible means </p>
+                    </div>
+                </div>
+            </div>
+            <!-- WHAT ARE THE DUTIES AND RIGHTS OF A MEMBER -->
+            <div class="col ">
+                <div class="row ">
+                    <div class="col-4 text-center">
+                        <i class="fa-solid fa-house our-coop-icon"></i>
+                    </div>
+                    <div class="col-8 ">
+                        <h4 class="h4 ">WHAT ARE THE DUTIES AND RIGHTS OF A MEMBER</h4>
+                        <p class="p ">Every member shall have the following duties: 1. Pay the installments on capital pledged as they fall due and participate in the capital build-up through regular savings;</p>
+                    </div>
+                </div>
+            </div>
+            <!-- BASIC SERVICES OFFERED BY DACCO -->
+            <div class="col ">
+                <div class="row ">
+                    <div class="col-4 text-center">
+                        <i class="fa-solid fa-gear our-coop-icon"></i>
+                    </div>
+                    <div class="col-8 ">
+                        <h4 class="h4 ">BASIC SERVICES OFFERED BY DACCO</h4>
+                        <p class="p ">Basic Fixed Deposit/Share Capital (Minimum subscription of a member to the share capital is P5,000 which entitles the member to interest on his capital depending on the net surplus.)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Our Services -->
+    <div class="services-section py-5">
+        <div class="container ">
+            <h2 class="h2 text-center text-light">Our Services</h2>
+            <button class=" btn btn-primary d-block mx-auto mt-5 mb-3 ">Learn More</button>
+        </div>
+    </div>
+
+
+    <!-- Mission and Vision -->
+    <div class="container my-5">
+        <h2 class="h2 text-center">Vision & Mission</h2>
+        <div class="row mt-5">
+            <!-- Vision -->
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-9">
+                        <h4 class="h4 text-end">Vision</h4>
+                        <div class="vision-text">
+                            <p class="p text-end">
+                                To be a model cooperative that is responsive to the needs of its environment and where each member becomes: economically self-reliant; positive value oriented; and a socially responsible member of the community.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3 text-center">
+                        <i class="fa-brands fa-pagelines vm-icon "></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Mission -->
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-3 text-center">
+                        <i class="fa-solid fa-building-columns vm-icon"></i>
+                    </div>
+                    <div class="col-9">
+                        <h4 class="h4 text-start">Mission</h4>
+                        <div class="vision-text">
+                            <p class="p text-start ">
+                                Lasting improvements in the quality of life of its members. A membership enlightened about cooperative values and their social responsibilities. Active involvement in community development. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Loan Promo -->
+    <div id="loan-carousel" class="carousel slide  mb-3" data-bs-ride="carousel">
+        <h2 class="h2 text-center my-5">Loan Promo</h2>
+
+        <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+                <div class="container d-flex justify-content-between">
+                    <div class=" card " style="width: 22rem; ">
+                        <img src="img/loan-promo.jpg " class="card-img-top " alt="... " style="height: 300px;">
+                        <div class="card-body ">
+                            <h5 class="card-title text-center">Loan Promo</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="text-center ">
+                                <a href=" # " class="btn btn-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card " style="width: 22rem; ">
+                        <img src="img/loan-promo.jpg " class="card-img-top " alt="... " style="height: 300px; ">
+                        <div class="card-body ">
+                            <h5 class="card-title text-center ">Loan Promo</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="text-center ">
+                                <a href=" # " class="btn btn-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card " style="width: 22rem; ">
+                        <img src="img/loan-promo.jpg " class="card-img-top " alt="... " style="height: 300px; ">
+                        <div class="card-body ">
+                            <h5 class="card-title text-center ">Loan Promo</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="text-center ">
+                                <a href=" # " class="btn btn-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Second Slide -->
+            <div class="carousel-item">
+                <div class="container d-flex justify-content-between">
+                    <div class=" card " style="width: 22rem; ">
+                        <img src="img/loan-promo.jpg " class="card-img-top " alt="... " style="height: 300px;">
+                        <div class="card-body ">
+                            <h5 class="card-title text-center">Loan Promo</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="text-center ">
+                                <a href=" # " class="btn btn-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card " style="width: 22rem; ">
+                        <img src="img/loan-promo.jpg " class="card-img-top " alt="... " style="height: 300px; ">
+                        <div class="card-body ">
+                            <h5 class="card-title text-center ">Loan Promo</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="text-center ">
+                                <a href=" # " class="btn btn-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card " style="width: 22rem; ">
+                        <img src="img/loan-promo.jpg " class="card-img-top " alt="... " style="height: 300px; ">
+                        <div class="card-body ">
+                            <h5 class="card-title text-center ">Loan Promo</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="text-center ">
+                                <a href=" # " class="btn btn-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Slide -->
+            <div class="carousel-item">
+                <div class="container d-flex justify-content-between">
+                    <div class=" card " style="width: 22rem; ">
+                        <img src="img/loan-promo.jpg " class="card-img-top " alt="... " style="height: 300px;">
+                        <div class="card-body ">
+                            <h5 class="card-title text-center">Loan Promo</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="text-center ">
+                                <a href=" # " class="btn btn-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card " style="width: 22rem; ">
+                        <img src="img/loan-promo.jpg " class="card-img-top " alt="... " style="height: 300px; ">
+                        <div class="card-body ">
+                            <h5 class="card-title text-center ">Loan Promo</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="text-center ">
+                                <a href=" # " class="btn btn-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card " style="width: 22rem; ">
+                        <img src="img/loan-promo.jpg " class="card-img-top " alt="... " style="height: 300px; ">
+                        <div class="card-body ">
+                            <h5 class="card-title text-center ">Loan Promo</h5>
+                            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class="text-center ">
+                                <a href=" # " class="btn btn-primary mt-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev " type="button " data-bs-target="#loan-carousel " data-bs-slide="prev">
+            <span class="carousel-control-prev-icon carousel-control-prev-icon-home " aria-hidden="true"></span>
+            <span class="visually-hidden ">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button " data-bs-target="#loan-carousel " data-bs-slide="next">
+            <span class="carousel-control-next-icon carousel-control-next-icon-home " aria-hidden="true"></span>
+            <span class="visually-hidden ">Next</span>
+        </button>
+
+    </div>
+
+
+
+    <!-- News & Events -->
+    <div class="container pt-5">
+        <h2 class="h2 text-center my-5">News & Events</h2>
+
+        <!-- Gallery -->
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <div class="event-img-container">
+                    <img src="img/event-1.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+                </div>
+                <div class="event-img-container">
+                    <img src="img/event-2.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="event-img-container">
+                    <img src="img/event-3.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+                </div>
+                <div class="event-img-container">
+                    <img src="img/event-4.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="event-img-container">
+                    <img src="img/event-5.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+                </div>
+                <div class="event-img-container">
+                    <img src="img/event-6.jpg" class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-light mt-5" style="background-color:#242424;">
+        <div class="container">
+            <div class="row">
+                <div class="col m-5">
+                    <h5 class="h5 mb-3">Main Office</h5>
+                    <p>56 Cooperative Street, Assumption Road 2600 Baguio City, Philippines Tel Nos.: (074) 442-5872 TeleFax: (074) 444-4993 Mobile Nos.: 0906-368-9390, 0947-428-2562
+                    </p>
+                </div>
+                <div class="col m-5">
+                    <h5 class="h5 mb-3">Kayang Satellite Office</h5>
+                    <p>3rd Floor, Kayang Business Center, Kayang Street Cor. Chugum Street, Brgy. AZCKO, Baguio City Tel. No.: (074) 244-8718, (074) 244-8649
+                    </p>
+                </div>
+                <div class="col m-5">
+                    <h5 class="h5 mb-3">La Trinidad Satellite Office</h5>
+                    <p>2F-Ramon Building JB-25 KM. 4, Brgy. Pico La Trinidad, Benguet Tel. No.: (074) 422-9788
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-color: #131313;">
+            <div class="copy-right container">
+                <ul class="pt-3">
+                    <li><a href="#">Contact Us</a> </li>
+                    <li>
+                        <a href="#">Payment</a>
+                    </li>
+                    <li>
+                        <a href="#">Download Forms</a>
+                    </li>
+                    <li>
+                        <a href="#">CoopServer</a>
+                    </li>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- Need -->
+
+    <!--
+    1. About Us
+    2. Vision and Mission
+    3. Organization Chart
+    4. Committees =>
+    5. Managements =>
+
+    Services =>
+
+    Activities =>
+
+    Gallery =>
+
+    Membership =>
+
+    Home Carousel Img =>
+
+    Loan Promos w/ Img =>
+        diff. kinds of Loans
+
+    News Events
+
+    ---- Footer
+
+    1. Other Offices
+    2. CoopServer
+    3. Downloadable Forms
+    4. Payment
+    5. Contact Us
+
+
+
+    -->
+
+
+</body>
+
+</html>
